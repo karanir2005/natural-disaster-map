@@ -163,8 +163,8 @@ const Globe = ({ onMapReady, onMapClick, apiKey }: GlobeProps) => {
       eorButtonDiv.style.margin = "10px";
       
       const eorButton = document.createElement("a");
-      eorButton.href = "https://google.com";
-      eorButton.target = "_blank";
+      eorButton.href = "https://prep-pal-mu.vercel.app/";
+      //eorButton.target = "_blank";
       eorButton.rel = "noopener noreferrer";
       eorButton.style.cssText = `
         display: flex;
